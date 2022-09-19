@@ -56,6 +56,6 @@ const cameraData = [
         id:11,
         image:camera11
     },
-]
+];
 
 export default cameraData
