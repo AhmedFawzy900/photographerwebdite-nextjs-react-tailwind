@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Hero from './components/Hero'
 import Instegram from './components/Instegram'
 import Slider from './components/Slider'
-import { SliderData } from './components/SliderData'
+import  SliderData  from './components/SliderData'
 
 import Categery from './components/Categery'
 
