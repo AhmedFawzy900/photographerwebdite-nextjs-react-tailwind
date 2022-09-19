@@ -9,9 +9,9 @@ import camera8 from '../../public/camera8.jpg'
 import camera9 from '../../public/camera9.jpg'
 import camera10 from '../../public/camera10.jpg'
 import camera11 from '../../public/camera11.jpg'
-import camera12 from '../../public/camera12.jpg'
 
-export const camera = [
+
+export const cameraData = [
     {
         id:1,
         image:camera1

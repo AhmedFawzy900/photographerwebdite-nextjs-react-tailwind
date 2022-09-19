@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import Instegram from './components/Instegram'
 import Slider from './components/Slider'
 import { SliderData } from './components/SliderData'
-import photographer from '../public/photographer.jpg'
+
 import Categery from './components/Categery'
 
 export default function Home() {
