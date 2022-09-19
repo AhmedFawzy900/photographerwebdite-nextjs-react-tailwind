@@ -11,7 +11,7 @@ import camera10 from '../../public/camera10.jpg'
 import camera11 from '../../public/camera11.jpg'
 
 
-export const cameraData = [
+const cameraData = [
     {
         id:1,
         image:camera1
@@ -57,3 +57,4 @@ export const cameraData = [
         image:camera11
     },
 ]
+ export default cameraData
