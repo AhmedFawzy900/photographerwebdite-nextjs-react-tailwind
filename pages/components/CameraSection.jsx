@@ -7,16 +7,16 @@ const Camera = () => {
         <div className='flex flex-wrap w-full items-center justify-center'>
             {cameraData.map((item) => {
                 return(
-                    <div>
-                        <div className='m-2 hidden sm:block ss:block ' key={item.id}>
+                    <div key={item.id}>
+                        <div className='m-2  ' >
                             {item.id === 6 
                             ? <Image src={item.image} alt='/' width='614' height='300' objectFit='cover' /> 
                             : <Image src={item.image} alt='/' width='300' height='300' objectFit='cover' /> }
                             
                         </div>
-                        <div className='m-2  block sm:hidden ss:hidden' key={item.id}>
+                        {/* <div className='m-2  block sm:hidden ss:hidden' id={item.id}>
                         <Image src={item.image} alt='/' width='200' height='170' objectFit='cover' />   
-                        </div>
+                        </div> */}
                     </div>
                 )
             })}
