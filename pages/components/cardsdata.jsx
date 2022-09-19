@@ -43,6 +43,6 @@ import snow from '../../public/snow.jpg'
      image:girl,
      desc:"photo from some women sessions"
     },
-]
+];
 
 export default cardsData
