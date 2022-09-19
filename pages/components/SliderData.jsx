@@ -40,6 +40,6 @@ const SliderData = [
        image8,
     },
   
-    
-  ];
-  export default SliderData
+  ]
+  
+export default SliderData
