@@ -44,4 +44,5 @@ import snow from '../../public/snow.jpg'
      desc:"photo from some women sessions"
     },
 ]
- export default cardsData
+
+export default cardsData
