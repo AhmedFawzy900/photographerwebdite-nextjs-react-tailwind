@@ -6,7 +6,7 @@ import image5 from '../../public/ig-img-5.jpeg'
 import image6 from '../../public/ig-img-6.jpeg'
 import image7 from '../../public/img9.jpg'
 import image8 from '../../public/snow.jpg'
-export const SliderData = [
+const SliderData = [
     {
       image:
        image1,
@@ -42,4 +42,4 @@ export const SliderData = [
   
     
   ];
-  
+  export default SliderData
