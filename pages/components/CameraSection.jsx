@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {cameraData} from './cameraData'
+import cameraData from './cameraData'
 const Camera = () => {
   return (
     <div>
