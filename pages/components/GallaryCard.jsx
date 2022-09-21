@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import cardsData from './cardsdata'
+import CardsData from './CardsData'
 const GallaryCard = () => {
   return (
     <div className='relative flex justify-center items-center flex-wrap  '>
-      {cardsData.map((item) => {
+      {CardsData.map((item) => {
         return (
         <div key={item.id} className='w-[400px] p-5 bg-white my-2 h-[350px] mx-2 shadow-md hover:shadow-lg'>
            <div className=''>
