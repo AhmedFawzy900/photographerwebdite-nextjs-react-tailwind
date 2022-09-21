@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import cameraData from './cameraData'
+import CameraData from './CameraData'
 const Camera = () => {
   return (
     <div>
         <h2 className='font-bold text-3xl py-10 text-center'>Tools Used</h2>
         <div className='flex flex-wrap w-full items-center justify-center'>
-            {cameraData.map((item) => {
+            {CameraData.map((item) => {
                 return(
                     <div key={item.id}>
                         <div className='m-2  ' >
