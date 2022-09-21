@@ -6,7 +6,7 @@ import man from '../../public/man.jpg'
 import snow from '../../public/snow.jpg'
 
 
- const cardsData = [
+ const CardsData = [
     {
      id:1,
      title:"Nature",
@@ -45,4 +45,4 @@ import snow from '../../public/snow.jpg'
     },
 ];
 
-export default cardsData
+export default CardsData
